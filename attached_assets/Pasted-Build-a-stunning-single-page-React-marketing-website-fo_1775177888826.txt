@@ -1,0 +1,176 @@
+Build a stunning single-page React marketing website for LipidIQ, 
+a clinical decision support iOS app. Output as a single React app 
+that runs with no backend, no API calls, no database.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREATIVE DIRECTOR BRIEF
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Think: Apple Health meets MIT Medical Intelligence Lab.
+Dark, precise, clinical — but alive. This is a tool 
+built by a neurologist who codes at midnight. It should 
+feel like the future of medicine in someone's pocket.
+
+Aesthetic direction:
+- Deep navy/slate dark mode (#0A0F1E base)
+- Electric blue (#3B82F6) as primary action color
+- Teal (#00C9A7) for accents and data highlights
+- Warm amber (#F59E0B) for clinical warning badges
+- Clean sans-serif body (DM Sans), editorial serif 
+  headlines (DM Serif Display) via Google Fonts
+- Glassmorphism cards (backdrop-filter: blur)
+- Animated gradient mesh background in hero
+- Subtle grid/dot pattern overlay for depth
+- Smooth staggered scroll reveal animations
+- Phone mockup frames with glow effects
+- Data visualization aesthetic — think LDL numbers 
+  floating, percentage reduction badges, risk tier 
+  color chips (red/amber/green)
+
+The ONE thing someone should remember: 
+"This looks like it was built by Apple's medical division"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+APP DETAILS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Name: LipidIQ
+Tagline: "Lipid Management at the Point of Care"
+Guideline basis: 2026 ACC/AHA Dyslipidemia Guidelines
+Price: Free
+App Store: https://apps.apple.com/us/app/lipidiq/id6760669194
+Developer: RxBuilds LLC
+Contact: texastesla01@gmail.com
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. NAV (fixed, glassmorphism)
+- Left: "LipidIQ" logo in DM Serif + small teal "RxBuilds" pill badge
+- Right: "Download Free" pill button → App Store
+- Shrinks on scroll with blur backdrop
+
+2. HERO (full viewport, animated)
+- Animated gradient mesh background (blue/teal moving blobs)
+- Floating pill badge: "● Now on App Store · Free"
+- H1 (large serif italic): "Lipid Management at the
+  Point of Care"
+- Subhead: "2026 ACC/AHA Dyslipidemia Guidelines — 
+  built for clinicians who need answers at the bedside"
+- Two CTAs: Primary "Download Free on App Store" 
+  (white pill with Apple logo SVG) + Ghost "Explore Features ↓"
+- Below CTAs: 3 stats in a row:
+  · "5 Modules" · "2026 ACC/AHA" · "Free Forever"
+- Background: 3 staggered phone mockup frames showing 
+  dark mode app screenshots (use placeholder gradients 
+  styled to look like app screens with realistic UI elements)
+
+3. FEATURES (tabbed or scrolling cards)
+Build 4 feature cards with icons, styled as dark glass panels:
+
+CARD 1 — PREVENT Calculator
+Icon: Heart with percentage
+"ASCVD 10-Year Risk Estimation · Ages 30–79"
+Inputs shown as mini UI chips: Age · Systolic BP · 
+Total Cholesterol · HDL-C · eGFR · Sex · Diabetes · Smoker
+Badge: "PREVENT Equation"
+
+CARD 2 — Primary Prevention
+Icon: Shield with checkmark
+"2026 ACC/AHA Algorithm · Adults Without Established ASCVD"
+Highlights: LDL-C goal targeting · CAC score integration · 
+Risk enhancers (Family Hx, South Asian/Filipino ancestry) · 
+10-year + 30-year risk inputs
+Badge: "No Prior ASCVD"
+
+CARD 3 — Secondary Prevention  
+Icon: Asterisk/medical cross
+"Established ASCVD · Very High Risk Assessment"
+Highlights: Major ASCVD events (ACS, MI, ischemic stroke, PAD) · 
+High-risk conditions (age >65, prior revascularization, CKD, 
+statin intolerance, elevated Lp(a))
+Risk tier chips: HIGH RISK · VERY HIGH RISK
+Badge: "Established ASCVD"
+
+CARD 4 — LLT Reference
+Icon: Pill/medication
+"Statin Intensity & Non-Statin Agents · 2026 ACC/AHA"
+Show a mini visual reference table:
+  🔴 High-Intensity → LDL-C ↓ ≥50%
+     · Atorvastatin 40–80mg · Rosuvastatin 20–40mg
+  🟡 Moderate-Intensity → LDL-C ↓ 30–49%
+  🟢 Low-Intensity → LDL-C ↓ <30%
+Badge: "Quick Reference"
+
+4. SPECIAL POPULATIONS (horizontal scroll tabs)
+Tab pills: CKD | Age ≥75 | Women | Statin Intolerance | Elevated Lp(a)
+
+Default active tab: Elevated Lp(a)
+Show content card:
+- Purple accent color for this section
+- "Elevated Lp(a)" header
+- Info block: "Lp(a) ≥50 mg/dL (~125 nmol/L) ≈ 40% ↑ relative risk. 
+  80–100 mg/dL doubles risk. ~180 mg/dL ≈ 4× risk (HeFH-equivalent). 
+  Statins do NOT lower Lp(a)."
+- Two recommendation cards with guideline badges:
+  [COR 1 — Strong] [LOE B-NR] — green left border
+  "In all individuals with elevated Lp(a) (≥125 nmol/L or ≥50 mg/dL): 
+  Optimal early control of ALL modifiable cardiovascular risk factors 
+  is recommended."
+  [COR 1 — Strong] [LOE B-R] — green left border  
+  "In ASCVD + elevated Lp(a) not at LDL-C/non-HDL-C goals on max 
+  statin: Add PCSK9 mAb (lowers Lp(a) 15–30% in addition to LDL-C 
+  lowering)."
+
+5. CLINICAL DISCLAIMER STRIP
+Amber background strip:
+"⚠ CLINICAL REFERENCE ONLY · Supports but does not replace 
+clinical judgement."
+
+6. GUIDELINE BADGE SECTION
+Center-aligned, clean:
+- Large text: "Built on Evidence"
+- Subtitle: "2026 ACC/AHA Dyslipidemia Guidelines"
+- 3 pill badges: "Primary Prevention" | "Secondary Prevention" 
+  | "PREVENT Equation"
+- Small text: Free to download. No subscription required.
+
+7. FOUNDER CARD
+Glass card, 2-column layout:
+Left — Quote in DM Serif Italic:
+"I built LipidIQ because lipid management decisions 
+are complex — and clinicians need guideline-based 
+answers at the bedside, not in a textbook."
+Below: Dr. Osama Jamil · Board-Certified Vascular 
+Neurologist & Neurohospitalist · Stroke Program Medical 
+Director · RxBuilds LLC · Laredo, TX
+
+Right — 4 stat cards:
+· BC — Board Certified Neurologist
+· 2026 — ACC/AHA Guidelines
+· Free — On App Store  
+· iOS — iPhone & iPad
+
+8. FINAL CTA (full-width, glowing)
+- Radial gradient glow background
+- H2: "Take Lipid Management to the Bedside"
+- Subtext: "Free download. No account required. 
+  2026 ACC/AHA Guidelines in your pocket."
+- Large Apple App Store button (dark pill, white text, 
+  Apple SVG logo): → https://apps.apple.com/us/app/lipidiq/id6760669194
+
+9. FOOTER
+RxBuilds LLC · LipidIQ · texastesla01@gmail.com · © 2026
+Links: App Store | RxBuilds
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TECHNICAL REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- React + Vite (standard Replit setup)
+- Tailwind CSS for styling
+- Framer Motion for scroll animations and hero entrance
+- No backend, no API, no database
+- All images: use CSS gradients + SVG icons (no external images)
+- Mobile-first responsive
+- Intersection Observer for scroll reveal on all sections
+- Dark mode only (no toggle needed)
+- Fast loading — no heavy dependencies beyond above
