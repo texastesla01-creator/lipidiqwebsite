@@ -525,9 +525,8 @@ export default function LipidIQ() {
                     I built LipidIQ because lipid management decisions are complex — and clinicians need guideline-based answers at the bedside, not in a textbook.
                   </blockquote>
                   <div className="border-t border-white/10 pt-4">
-                    <p className="text-white font-semibold">Dr. Osama Jamil</p>
-                    <p className="text-white/50 text-sm">Board-Certified Vascular Neurologist & Neurohospitalist</p>
-                    <p className="text-white/50 text-sm">Stroke Program Medical Director · RxBuilds LLC · Laredo, TX</p>
+                    <p className="text-white font-semibold">Board-Certified Vascular Neurologist</p>
+                    <p className="text-white/50 text-sm">Stroke Program Medical Director · RxBuilds LLC</p>
                   </div>
                 </div>
 
