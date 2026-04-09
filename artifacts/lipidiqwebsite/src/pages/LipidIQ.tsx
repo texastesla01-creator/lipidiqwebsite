@@ -585,13 +585,21 @@ export default function LipidIQ() {
               {" · "}<a href="mailto:texastesla01@gmail.com" className="hover:text-white/60 transition-colors">texastesla01@gmail.com</a>
               {" · "}© 2026
             </div>
-            <div className="flex items-center gap-4 text-sm">
+            <div className="flex items-center gap-4 text-sm flex-wrap justify-center">
               <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors" style={{ minHeight: "44px", display: "flex", alignItems: "center" }}>
                 App Store
               </a>
               <span className="text-white/20">·</span>
               <a href="https://rxbuilds.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors" style={{ minHeight: "44px", display: "flex", alignItems: "center" }}>
                 RxBuilds
+              </a>
+              <span className="text-white/20">·</span>
+              <a href="https://lipid-navigator.replit.app/support" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors" style={{ minHeight: "44px", display: "flex", alignItems: "center" }}>
+                Support
+              </a>
+              <span className="text-white/20">·</span>
+              <a href="https://lipid-navigator.replit.app/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors" style={{ minHeight: "44px", display: "flex", alignItems: "center" }}>
+                Privacy Policy
               </a>
             </div>
           </div>
